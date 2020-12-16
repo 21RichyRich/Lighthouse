@@ -1,0 +1,143 @@
+
+header{
+    background: #111;
+    width: 100%;
+    height: 64px;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .top-bar {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: 18px;
+        a:hover{
+            color:rgb(63, 156, 83)
+        }
+         .menu-item-has-children:hover .sub-menu{
+            display: block;
+        }
+        li .sub-menu {
+            display: none;
+            position: absolute;
+            z-index: 999; // z-index positions the drop down menu always on top of background text
+            top: 100%;
+            left: 0;
+            background: #fff;
+            box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            width: 200px;
+            border-radius: .5rem;
+                a{
+                    color: rgb(216, 82, 5);
+                    padding: .25rem;
+                    text-align: center;
+                    display: block;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: black;
+                }
+        }
+        li a{
+            padding: .25rem 1rem;
+            color: #fff;
+        }
+        
+        li {
+            position: relative;
+            a:hover{
+                text-decoration: none;
+            }
+        }
+        li:first-child a {
+            padding-left: 0;
+        }
+        li:last-child a {
+            padding-right: 0;
+        }
+    }
+}
+
+.page-wrap {
+    .solar-bg{
+    background: url('Clean-Energy.jpeg'); 
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background: fit;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    border-bottom: solid red 4px;
+    .header-region{
+        padding-left: 18px;
+    }
+
+        .our-vision-text{
+            color: #16823b;
+        }
+    
+    }
+}
+.body-text{
+    font-weight: lighter;
+    font-size: 40px;
+    padding-top: 18px;
+    padding-left: 4px;
+}
+ 
+.carbon-title {
+font-weight: 500;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 33px;
+}
+
+.group-spacing{
+    padding-top: 10px;
+}
+
+.col-6 {
+    padding-right: 86px;
+    padding-top: 78px;
+}
+
+
+.overview-text{
+    font-weight: 250;
+    padding-bottom: 6px;
+    padding-top: 48px;
+    .energy-text{
+        font-size: 33px;
+        font-weight: 300;       
+    }
+}
+.p-body{
+    padding-top: 3px;
+    font-size: large;
+}
+p{
+    font-size: large;
+}
+
+.georgia-power-bg{
+    width: -moz-available;
+}
+
+.carbon-vision-image{
+    background: url('Carbon-Vision-Circles.png');
+    background-repeat: no-repeat;   
+    width: 89%;
+    height: 395px;
+    background-size: contain;
+}
+
+.bg-dark{
+    background-color: #151617 !important;
+}

@@ -1,0 +1,25 @@
+<?php get_header();?>
+
+
+
+<section class="page-wrap">
+<div class="container">
+
+    <h1><?php the_title();?></h1>
+
+    <?php get_template_part('includes/section','content');?>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cupiditate, eius ipsum animi modi a voluptas reiciendis sequi 
+    voluptatibus doloribus odit alias deserunt dolore eligendi quos unde facilis rerum cumque in molestiae, accusamus cum? Id dolorum illo, dicta, molestias nostrum est facilis perspiciatis architecto sint corporis iusto rerum praesentium soluta.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cupiditate, eius ipsum animi modi a voluptas reiciendis sequi 
+    voluptatibus doloribus odit alias deserunt dolore eligendi quos unde facilis rerum cumque in molestiae, accusamus cum? Id dolorum illo, dicta, molestias nostrum est facilis perspiciatis architecto sint corporis iusto rerum praesentium soluta.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cupiditate, eius ipsum animi modi a voluptas reiciendis sequi 
+    voluptatibus doloribus odit alias deserunt dolore eligendi quos unde facilis rerum cumque in molestiae, accusamus cum? Id dolorum illo, dicta, molestias nostrum est facilis perspiciatis architecto sint corporis iusto rerum praesentium soluta.
+    </p>
+
+</div>
+</section>
+
+
+<?php get_footer();?>
