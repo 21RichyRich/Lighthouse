@@ -161,4 +161,9 @@ p {
 .bg-dark {
   background-color: #151617 !important;
 }
+
+.card-images {
+  width: 200px;
+  height: 200px;
+}
 /*# sourceMappingURL=main.css.map */
